@@ -11,6 +11,15 @@
 	<p>This is used with a paragraph tag.</p>
 	This is freely in the body.
 
+	<h1 id="top"> Links to Sections of the Same Page</h1>
+	<section>
+		<ul>
+			<!-- This is how you make comments! -->
+			<li><a href="#section1">#section1</a></li>
+			<li><a href="#section2">#section2</a></li>
+		</ul>
+	</section>
+
 	<h2> DIV vs SPAN (this is a subheading)</h2>
 	<div>DIV 1</div>
 	<div>DIV 2:right after div 1</div>
@@ -23,28 +32,33 @@
 	The div element wants to be alone.
 	Span wants to tag along.
 	Element div is not allowed as child of element span.
-	<h2>Unordered lists</h2>
-	<div>
-		My shopping list:
-		<ul>
-			<li>Milk</li>
-			<li>Cookies
-				<ul>
-					<li>Chocolate chip</li>
-					<li>Peanut butter</li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<h2>Ordered lists</h2>
-	<div>
-		Step-by-step procedure:
-		<ol>
-			<li>First step</li>
-			<li>Second step</li>
-			<li>Third step</li>
-		</ol>
-	</div>
+	<section id="section1">
+		<h2>Unordered lists</h2>
+		<div>
+			My shopping list:
+			<ul>
+				<li>Milk</li>
+				<li>Cookies
+					<ul>
+						<li>Chocolate chip</li>
+						<li>Peanut butter</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="section2">
+		<h2>Ordered lists</h2>
+		<div>
+			Step-by-step procedure:
+			<ol>
+				<li>First step</li>
+				<li>Second step</li>
+				<li>Third step</li>
+			</ol>
+		</div>
+	</section>
+
 	<h3>Subheadings</h3>
 	Subheadings are used only for structure.
 
