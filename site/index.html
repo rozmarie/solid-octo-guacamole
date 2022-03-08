@@ -14,6 +14,12 @@
 			font-size: 20px;
 			width: 100px;
 		}
+		.red {
+			color: red;
+		}
+		#name {
+			color: orange;
+		}
 	</style>
 </head>
 <body>
@@ -33,11 +39,11 @@
 		</ul>
 	</section>
 
-	<h2> DIV vs SPAN (this is a subheading)</h2>
+	<h2 class="red"> DIV vs SPAN (this is a subheading)</h2>
 	<div>DIV 1</div>
 	<div>DIV 2:right after div 1</div>
 	<span>SPAN 1: right after div 2</span>
-	<div>
+	<div class="red">
 		DIV 3: following span 1
 		<span>SPAN 2: inside div 3</span>
 		still in div 3
@@ -46,7 +52,7 @@
 	Span wants to tag along.
 	Element div is not allowed as child of element span.
 	<section id="section1">
-		<h2>Unordered lists</h2>
+		<h2 id="name">Unordered lists</h2>
 		<div>
 			My shopping list:
 			<ul>
