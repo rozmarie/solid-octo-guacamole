@@ -3,7 +3,16 @@
 <head>
 	<meta charset="utf-8"> 
 	<title>My First Page</title>
+	<!-- article > p for p which are direct children of article -->
+	<!-- article p for p which is a child of article -->
 	<style>
+		article > p {
+			color: blue;
+		}
+		p.big{
+			font-size: 20px;
+			font-style: italic;
+		}
 		h1 {
 			color: red;
 			font-size: 50px;
@@ -17,11 +26,20 @@
 <body>
 	<h1>Links!</h1>
 	<h2>Internal links</h2>
-	Link back to the main page:
-	<a href="index.html" title="link to the main page"> Back to main page.</a>
-
+	<p class="big"> Link back to the main page:
+		<a href="index.html" title="link to the main page"> Back to main page.</a>
+	</p>
 	<h2>External links</h2>
 	Link to a wiki page about dogs:
 	<a href="https://en.wikipedia.org/wiki/Dog" target="_blank" title="Like our page!"> DOGS! </a>
 	<img src="dog.jpg" width="600" height="301">
+
+	<article>
+		<p>
+			This should be blue.
+		</p>
+	</article>
+	<p>
+		This shouldn't be blue.
+	</p>
 </body>
