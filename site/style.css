@@ -2,10 +2,19 @@ body {
 	background-color: lightcyan;
 	font-size: 130%
 }
-}
+
 h1 {
 	font-size: 36px;
 	text-align: center;
 	color: rebeccapurple;
 	font-family: arial;
+}
+p {
+	font-family: arial, helvetica, sans-serif;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+h2 {
+	text-transform: uppercase;
 }
